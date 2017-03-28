@@ -93,7 +93,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.1</version>
 	<configuration>
-		<url>http://34.208.239.156:9181/manager/html</url>
+		<url>http://34.208.239.156:9181/manager/test/html</url>
 		<server>TomcatServer</server>
 		<path>/Anand</path>
 	</configuration> 
