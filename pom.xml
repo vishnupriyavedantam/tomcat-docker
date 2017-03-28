@@ -55,16 +55,7 @@
       </execution>
    </executions>
 </plugin>  -->
-			<plugin>
-	<groupId>org.codehaus.mojo</groupId>
-  <artifactId>tomcat7-maven-plugin</artifactId>
-	
-	<configuration>
-		<url>http://34.208.239.156:9181/manager</url>
-		<server>TomcatServer</server>
-		<path>/Anand</path>
-	</configuration>
-</plugin>
+			
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -87,6 +78,16 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+	<groupId>org.codehaus.mojo</groupId>
+  <artifactId>tomcat7-maven-plugin</artifactId>
+	
+	<configuration>
+		<url>http://34.208.239.156:9181/manager</url>
+		<server>TomcatServer</server>
+		<path>/Anand</path>
+	</configuration>
+</plugin>
 			<!--<plugin>
 	<groupId>org.codehaus.mojo</groupId>
   <artifactId>tomcat-maven-plugin</artifactId>
