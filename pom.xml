@@ -78,26 +78,26 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- <plugin>
+			 <plugin>
 	<groupId>org.codehaus.mojo</groupId>
   <artifactId>tomcat-maven-plugin</artifactId>
 	
 	<configuration>
-		<url>http://34.208.239.156:9181/manager</url>
-		<server>TomcatServer</server>
+		<url>http://54.148.151.3:9181/manager/test</url>
+		<server>MyServer</server>
 		<path>/Anand</path>
 	</configuration>
-</plugin>  -->
-			<plugin>
+</plugin>  
+			<!-- <plugin>
 	<groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.1</version>
 	<configuration>
-		<url>http://54.148.151.3:9181/manager/html</url>
+		<url>http://54.148.151.3:9181</url>
 		<server>MyServer</server>
 		<path>/Anand</path>
 	</configuration> 
-			</plugin>
+			</plugin> -->
 			
 			 <plugin>
         <groupId>org.apache.maven.plugins</groupId>
