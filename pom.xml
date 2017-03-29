@@ -83,7 +83,7 @@
   <artifactId>tomcat-maven-plugin</artifactId>
 	
 	<configuration>
-		<url>http://54.148.151.3:9181/manager/test</url>
+		<url>http://54.148.151.3:9181/manager/text</url>
 		<server>MyServer</server>
 		<path>/Anand</path>
 	</configuration>
