@@ -15,6 +15,7 @@
 	
 	
 	
+	
 	<distributionManagement>
    <snapshotRepository>
       <id>developer</id>
