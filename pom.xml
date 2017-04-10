@@ -16,13 +16,13 @@
 	
 	
 	
-	
+	<!--
 	<distributionManagement>
    <snapshotRepository>
       <id>developer</id>
       <url>http://localhost:8081/repository/test/</url>
    </snapshotRepository>
-</distributionManagement> 
+</distributionManagement> -->
 <dependencies>
 		<!-- tag::joda[] -->
 		<dependency>
