@@ -10,7 +10,7 @@
 	<version>0.1.0-SNAPSHOT</version>
 	<distributionManagement>
    <snapshotRepository>
-     <id>complete_flow-userid</id>
+     <id>developer</id>
       <url>http://localhost:8081/repository/complete_flow/</url>
    </snapshotRepository>
 </distributionManagement> 
